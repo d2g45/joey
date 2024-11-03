@@ -1,0 +1,51 @@
+@layer utilities {
+    .block-wrapper {
+        @apply relative w-full py-12 md:py-20 lg:py-24 xl:py-32;
+
+        &--half-padding {
+            @apply py-6 md:py-10 lg:py-12 xl:py-16;
+        }
+
+        &--no-padding {
+            @apply py-0;
+        }
+    }
+
+    .block-container {
+        @apply relative z-10 container mx-auto px-4;
+    }
+
+    .button {
+        @apply cursor-pointer p-4 md:px-8 text-center rounded-full transition-all duration-300 font-bold tracking-wider border;
+
+        &--small {
+            @apply p-2 md:px-4;
+        }
+
+        &--default {
+            @apply bg-slate-100 text-slate-700 border-slate-100;
+
+            &__red {
+                @apply bg-red-500 hover:bg-red-700 border-red-500 hover:border-red-700;
+            }
+
+            &__black {
+                @apply bg-neutral-800 hover:bg-neutral-900 border-neutral-800 hover:border-neutral-900;
+            }
+
+            &__blue {
+                @apply bg-blue-500 hover:bg-blue-700 border-blue-500 hover:border-blue-700;
+            }
+        }
+
+        &--hollow {
+            @apply bg-transparent border-slate-100 text-slate-100 hover:bg-slate-100 hover:text-slate-700;
+        }
+    }
+
+    .cms-content {
+        p:not(:last-child) {
+            @apply mb-4;
+        }
+    }
+}

@@ -1,0 +1,28 @@
+{% cache globally %}
+    <header class="gs-group fixed z-10 w-full backdrop-blur-md bg-neutral-900/30 hover:bg-neutral-900 transition-colors duration-150 py-3 font-serif uppercase">
+        <div class="block-container flex flex-row items-center justify-between">
+            <a href="/"
+                title="Go to the homepage"
+                class="gs-lazy block font-bold tracking-wider leading-none text-xl hover:text-red-400 transition-colors duration-300">
+                <span class="max-md:hidden">{{ siteName }}</span>
+                <span class="md:hidden">JDG</span>
+            </a>
+
+            {% set headerNavigation = header.navigation.all() %}
+            {% if (headerNavigation|length) > 0 %}
+                <nav class="flex flex-row items-center justify-center">
+                    {% for node in headerNavigation %}
+                        <a href="{{ node.url }}"
+                            title="Go to: {{ node.title }}"
+                            class="gs-lazy group relative bold tracking-wider hover:text-red-400 transition-colors duration-300 md:text-xl ml-2 lg:ml-4">
+                            <span class="block">{{ node.title }}</span>
+                            <span class="block absolute -bottom-1 left-0 transition-all w-full scale-x-0 group-hover:scale-x-100 h-0.5 bg-white group-hover:bg-red-500 duration-300 ease-in-out delay-75">
+
+                            </span>
+                        </a>
+                    {% endfor %}
+                </nav>
+            {% endif %}
+        </div>
+    </header>
+{% endcache %}

@@ -1,0 +1,76 @@
+altTranslationKeyFormat: null
+altTranslationMethod: none
+fieldLayouts:
+  599f3ed7-7015-4c7f-bfa3-de652b4a1bad:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2024-11-03T07:15:52+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\assets\AssetTitleField
+            uid: 3d9e0162-4920-4d80-b938-b040fc4a96a1
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            attribute: alt
+            class: null
+            cols: null
+            dateAdded: '2024-11-03T07:18:11+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            instructions: null
+            label: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: true
+            required: false
+            rows: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\assets\AltField
+            uid: 66b9db1a-a975-4aff-af18-637259b2ba7d
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: f4423817-3303-4943-9aad-705aba67f172
+        userCondition: null
+fs: localUploads
+handle: uploads
+name: Uploads
+sortOrder: 1
+subpath: ''
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
+transformFs: localUploads
+transformSubpath: ''

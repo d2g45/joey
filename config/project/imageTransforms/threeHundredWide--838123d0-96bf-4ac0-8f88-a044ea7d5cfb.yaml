@@ -1,0 +1,11 @@
+fill: null
+format: webp
+handle: threeHundredWide
+height: 300
+interlace: none
+mode: crop
+name: 'Three Hundred Wide'
+position: center-center
+quality: 100
+upscale: true
+width: 600

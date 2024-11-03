@@ -1,0 +1,5 @@
+<div class="grid grid-cols-2 md:grid-cols-3 grid-rows-1 gap-4 md:gap-6 lg:gap-8">
+    {% for caseStudy in caseStudies %}
+        {% include 'components/case-study-link' with { caseStudy} %}
+    {% endfor %}
+</div>

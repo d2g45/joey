@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@use "utils";
+@use "components";
+@use "modules";
+@use "blocks";
+
+@layer base {
+    body {
+        @apply bg-neutral-900 text-slate-200;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        @apply font-serif font-bold tracking-wider;
+    }
+
+    h1 {
+        @apply text-4xl lg:text-6xl xl:text-7xl;
+    }
+
+    h2 {
+        @apply text-3xl lg:text-5xl xl:text-6xl;
+    }
+}

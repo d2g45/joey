@@ -1,0 +1,75 @@
+headingLevels:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+name: Default
+options:
+  alignment:
+    options:
+      - left
+      - right
+  code:
+    indentSequence: '  '
+  htmlSupport:
+    allow:
+      -
+        attributes: true
+        classes: true
+        styles: true
+  style:
+    definitions:
+      -
+        classes:
+          - red-heading
+        element: h2
+        name: 'Red heading'
+      -
+        classes:
+          - vibrant-code
+        element: pre
+        name: 'Vibrant code'
+      -
+        classes:
+          - marker
+        element: span
+        name: Marker
+toolbar:
+  - undo
+  - redo
+  - sourceEditing
+  - '|'
+  - style
+  - heading
+  - '|'
+  - alignment
+  - '|'
+  - blockQuote
+  - code
+  - codeBlock
+  - '|'
+  - bold
+  - italic
+  - underline
+  - strikethrough
+  - subscript
+  - superscript
+  - '|'
+  - bulletedList
+  - numberedList
+  - outdent
+  - indent
+  - horizontalLine
+  - '|'
+  - link
+  - anchor
+  - '|'
+  - insertImage
+  - mediaEmbed
+  - insertTable
+  - htmlEmbed
+  - removeFormat
+  - selectAll
+  - createEntry

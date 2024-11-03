@@ -1,0 +1,115 @@
+color: null
+fieldLayouts:
+  f50937cf-dad9-449b-9176-0e28a2975df5:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2024-11-03T18:55:15+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 355518c6-ee27-4e34-ad1d-e540d7e7ef9c
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-11-03T18:58:06+00:00'
+            elementCondition: null
+            fieldUid: 24edeead-6392-4988-887c-3e990f6f8eef # Email
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 7385e453-8002-4a93-80ef-60c1225850cf
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-11-03T18:58:06+00:00'
+            elementCondition: null
+            fieldUid: 4147d92a-c562-436f-9d8e-ac8985be820e # Instagram
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 3338b035-a9bd-449e-a420-5ca84d3728b8
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-11-03T18:58:59+00:00'
+            elementCondition: null
+            fieldUid: b19b772f-8857-4d40-a123-fc30bf2cabbd # Vimeo
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 37534571-b757-4cd0-8b2d-6109c7d13fbd
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-11-03T18:58:59+00:00'
+            elementCondition: null
+            fieldUid: c5fc4097-7b04-4fdc-96ad-9eca510fdfc0 # Youtube
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e3f19c79-29a2-4e1c-95e8-0ebad2b25b86
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: ef8de46c-c129-40f5-9645-4c21ff653b52
+        userCondition: null
+handle: contactInfo
+hasTitleField: false
+icon: ''
+name: 'Contact Info'
+showSlugField: false
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: ''
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

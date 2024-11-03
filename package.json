@@ -1,0 +1,49 @@
+{
+    "name": "joey-de-guzman",
+    "version": "1.1.1",
+    "description": "Joey De Guzman's Portfolio",
+    "main": "vite.config.js",
+    "scripts": {
+        "dev": "vite dev",
+        "prod": "vite build"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/d2g45/jdg.git"
+    },
+    "author": "d2g45",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/d2g45/jdg/issues"
+    },
+    "homepage": "https://github.com/d2g45/jdg#readme",
+    "browserslist": {
+        "production": [
+            "defaults"
+        ],
+        "development": [
+            "defaults"
+        ]
+    },
+    "devDependencies": {
+        "@vitejs/plugin-legacy": "^4.0.1",
+        "autoprefixer": "^10.4.13",
+        "fs-extra": "^11.1.0",
+        "postcss": "^8.4.21",
+        "prettier-plugin-twig-melody": "^0.4.6",
+        "sass": "^1.58.3",
+        "tailwindcss": "^3.2.7",
+        "terser": "^5.16.4",
+        "vite-plugin-pwa": "^0.14.4",
+        "vite-plugin-restart": "^0.3.1",
+        "vite-plugin-webfont-dl": "^3.6.0",
+        "vite-tsconfig-paths": "^4.2.0"
+    },
+    "dependencies": {
+        "@tailwindcss/aspect-ratio": "^0.4.2",
+        "gsap": "./node_packages/gsap-bonus.tgz",
+        "rollup-plugin-critical": "^1.0.12",
+        "vite": "^4.1.2",
+        "vite-plugin-compression": "^0.5.1"
+    }
+}

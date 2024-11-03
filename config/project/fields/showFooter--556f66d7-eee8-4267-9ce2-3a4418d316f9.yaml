@@ -1,0 +1,12 @@
+columnSuffix: null
+handle: showFooter
+instructions: null
+name: 'Show Footer'
+searchable: false
+settings:
+  default: false
+  offLabel: Hide
+  onLabel: Show
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Lightswitch

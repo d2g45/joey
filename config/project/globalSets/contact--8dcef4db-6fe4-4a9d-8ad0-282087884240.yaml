@@ -1,0 +1,28 @@
+fieldLayouts:
+  56bfe658-5996-47ab-a6ac-4da423e33ad0:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2024-11-03T18:59:03+00:00'
+            elementCondition: null
+            fieldUid: da393ac9-7715-4e42-85a9-212895f9d529 # Info
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 57ab3f3e-df22-4983-9d44-beec75f4fb6a
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 6f8f0082-fb12-498e-ba0b-1bc3f0d84378
+        userCondition: null
+handle: contact
+name: Contact
+sortOrder: 3

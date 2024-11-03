@@ -1,0 +1,21 @@
+columnSuffix: null
+handle: bannerItems
+instructions: null
+name: 'Banner Items'
+searchable: false
+settings:
+  contentTable: ''
+  createButtonLabel: null
+  entryTypes:
+    - 1fec98ea-8488-4896-8887-baedd8751a65 # Banner Items
+  includeTableView: false
+  maxEntries: null
+  minEntries: null
+  pageSize: null
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: blocks
+translationKeyFormat: null
+translationMethod: site
+type: verbb\supertable\fields\SuperTableField

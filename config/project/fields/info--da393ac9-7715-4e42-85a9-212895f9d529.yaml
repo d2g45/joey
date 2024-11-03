@@ -1,0 +1,21 @@
+columnSuffix: null
+handle: info
+instructions: null
+name: Info
+searchable: false
+settings:
+  contentTable: ''
+  createButtonLabel: null
+  entryTypes:
+    - 866ce817-c3a8-4121-b362-b14d7d27e1be # Contact Info
+  includeTableView: false
+  maxEntries: 1
+  minEntries: null
+  pageSize: null
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: blocks
+translationKeyFormat: null
+translationMethod: site
+type: verbb\supertable\fields\SuperTableField

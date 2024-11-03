@@ -1,0 +1,11 @@
+fill: null
+format: webp
+handle: sixHundredWide
+height: 600
+interlace: none
+mode: crop
+name: 'Six Hundred Wide'
+position: center-center
+quality: 100
+upscale: true
+width: 1200

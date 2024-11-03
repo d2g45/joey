@@ -1,0 +1,30 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  - bb70feec-7ba0-4f5d-b482-214273eb35f6 # Pages Default
+handle: pages
+maxAuthors: 1
+name: Pages
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  cd9bb492-bcaa-4f09-bb24-13749990b4c7: # Joey De Guzman
+    enabledByDefault: true
+    hasUrls: true
+    template: pages/_entry.twig
+    uriFormat: '{parent.uri}/{slug}'
+structure:
+  maxLevels: null
+  uid: 4a5a72a7-d99d-4c27-9803-0bb7411eb95b
+type: structure

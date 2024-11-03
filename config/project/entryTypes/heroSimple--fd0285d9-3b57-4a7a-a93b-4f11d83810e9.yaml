@@ -1,0 +1,51 @@
+color: null
+fieldLayouts:
+  3db6a33c-e2d3-4808-82eb-f79aa72b2fe5:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2024-11-03T07:30:51+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 243fdf37-1f57-4bf5-a8ea-cb4614aefae8
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 3afc3674-fd91-47d4-9504-56db0b0434f1
+        userCondition: null
+handle: heroSimple
+hasTitleField: true
+icon: mask
+name: 'Hero Simple'
+showSlugField: false
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: ''
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

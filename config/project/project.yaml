@@ -1,0 +1,189 @@
+dateModified: 1730666788
+email:
+  fromEmail: $CRAFT_SYSTEM_EMAIL
+  fromName: 'Joey De Guzman'
+  replyToEmail: null
+  template: null
+  transportSettings:
+    host: $SMTP_HOSTNAME
+    password: $SMTP_PASS
+    port: $SMTP_PORT
+    useAuthentication: $SMTP_AUTH
+    username: $SMTP_USER
+  transportType: craft\mail\transportadapters\Smtp
+fs:
+  localUploads:
+    hasUrls: true
+    name: 'Local Uploads'
+    settings:
+      path: files/uploads
+    type: craft\fs\Local
+    url: /files/uploads
+meta:
+  __names__:
+    1ea3d1fc-2bce-4323-b967-b1cceda2f42b: 'Three Hundred' # Three Hundred
+    1fe6ecfa-c659-4370-8b8c-40ee0ca6e932: Interior # Interior
+    1fec98ea-8488-4896-8887-baedd8751a65: 'Banner Items' # Banner Items
+    2e7a92a1-1299-431d-9061-f2de28e10d5d: Navigation # Navigation
+    4ad38322-4f83-4460-b69f-5dc5dbe5b001: Intro # Intro
+    5d04f5b0-4271-45e5-bbb2-a410d01cae6e: 'Case Study Category' # Case Study Category
+    5d51407f-bfae-4606-a891-0d72f09e4e41: 'Single Case Study' # Single Case Study
+    6ba22164-61a5-41c7-a5fe-456cb3288911: 'Case Studies' # Case Studies
+    6d09286d-0d45-4e61-92f8-77bae9023475: 'Banner Items' # Banner Items
+    6f77af21-9fb5-46bf-a7c4-99358f005d84: Simple # Simple
+    7cfe71ad-e0d4-4b37-b875-cc0fee1ad54c: caseStudiesDefault # caseStudiesDefault
+    7db103d6-4558-4deb-8751-a5d994e0d722: 'Public Schema' # Public Schema
+    8dcef4db-6fe4-4a9d-8ad0-282087884240: Contact # Contact
+    9d9c757b-5105-4acd-895d-faa2181a81f9: 'Case Study' # Case Study
+    24edeead-6392-4988-887c-3e990f6f8eef: Email # Email
+    52e92402-78f6-4f5a-96ff-af4f76fb213d: 'Matrix Blocks' # Matrix Blocks
+    60eb3ca0-3216-4b6b-9c34-5e60570c8300: Size # Size
+    82de6647-c6ee-44b2-808e-f5ab059837cd: SVGs # SVGs
+    82e2ff20-094d-4d48-b41e-be39fa158169: 'Case Study Categories' # Case Study Categories
+    90c621c9-05f7-42db-a2ac-17e225a9d88c: 'Six Hundred' # Six Hundred
+    468b0e80-4386-4d5a-ab7e-e3bdc6218b6b: SEO # SEO
+    524c2934-a646-4d47-a7e4-97c7f271b8d1: Default # Default
+    556f66d7-eee8-4267-9ce2-3a4418d316f9: 'Show Footer' # Show Footer
+    0841ce00-ca7d-4bdc-bd87-e259323a250a: Uploads # Uploads
+    866ce817-c3a8-4121-b362-b14d7d27e1be: 'Contact Info' # Contact Info
+    1445f16c-706d-4984-b85f-4882e962161d: 'Image Grid' # Image Grid
+    4147d92a-c562-436f-9d8e-ac8985be820e: Instagram # Instagram
+    813355ea-98dd-4b4a-9564-ed8b022c5d34: 'Case Studies' # Case Studies
+    838123d0-96bf-4ac0-8f88-a044ea7d5cfb: 'Three Hundred Wide' # Three Hundred Wide
+    9432698d-2a29-495a-88f6-a66724150edb: 'Hero Video' # Hero Video
+    09930591-33c2-442f-ab5f-b870f81381a3: Video # Video
+    30399411-205a-455e-9e96-f245e121f926: 'Case Studies' # Case Studies
+    39726836-0f5d-40b0-8e1f-b1f26ab028e2: 'Hero Split' # Hero Split
+    a5a3766f-90ac-4174-ad10-e8449d6ecd71: Pages # Pages
+    a9d0491a-5979-40b7-8841-78fe402bde46: Page # Page
+    a28b124b-4500-4ef4-8aad-7d809906c552: 'SVG Grid' # SVG Grid
+    aa10a5f2-b7f8-4b5c-a2f3-b1719e3924bd: Image # Image
+    ac5452bf-ec8c-4014-8a63-a38aa45bddc5: 'Button Text' # Button Text
+    b19b772f-8857-4d40-a123-fc30bf2cabbd: Vimeo # Vimeo
+    b1288af3-0b51-4c7e-9a70-fa4301dbbb5a: Contact # Contact
+    bb70feec-7ba0-4f5d-b482-214273eb35f6: 'Pages Default' # Pages Default
+    be7f6654-8daa-4a94-bbdd-09662d91120d: 'Six Hundred Wide' # Six Hundred Wide
+    c5fc4097-7b04-4fdc-96ad-9eca510fdfc0: Youtube # Youtube
+    c874f278-6f0a-4d0b-b6de-f15810e60eb7: Images # Images
+    c4684aad-6d16-44f6-add3-31f6dfd64196: Footer # Footer
+    ca8755a2-28e2-4d31-8a03-c90169c6cb3a: Body # Body
+    cd9bb492-bcaa-4f09-bb24-13749990b4c7: 'Joey De Guzman' # Joey De Guzman
+    da393ac9-7715-4e42-85a9-212895f9d529: Info # Info
+    dcfc1d5b-c355-48e0-ad71-068b65cc8c7f: 'Background Image' # Background Image
+    e1c82854-b8db-4a16-9672-c80bf42db891: Pages # Pages
+    ec9342f3-446b-4408-a617-0b21d03406cb: joeydeguzman # joeydeguzman
+    ed062fe5-99f2-4d59-a5d8-710e4a6a190c: 'Featured Case Studies' # Featured Case Studies
+    ee02a333-e110-4380-94ee-10a5e40c1dce: 'Image Banner' # Image Banner
+    ee10b0d3-a081-4859-8cdd-f84ce01cd6ec: Header # Header
+    eeda22cb-0d32-4a91-a49a-4f0aa3eb92f7: 'Split Style' # Split Style
+    f1f31206-e7b6-4937-a4d0-af9ef9001b6d: Header # Header
+    fd0285d9-3b57-4a7a-a93b-4f11d83810e9: 'Hero Simple' # Hero Simple
+plugins:
+  block-usage:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  ckeditor:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.0.0.0
+  contact-form:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  contact-form-extensions:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.1
+  contact-form-honeypot:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  craft-recaptcha:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  embeddedassets:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  field-manager:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  inlinesvg:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  seo:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.2.0
+    settings:
+      description: ''
+      facebookAppId: ''
+      metaTemplate: ''
+      removeAlternateUrls: ''
+      robots:
+        - ''
+        - ''
+        - ''
+        - ''
+        - ''
+        - ''
+      robotsTxt: "{# Sitemap URL #}\r\nSitemap: {{ url(seo.sitemapName ~ '.xml') }}\r\n\r\n{# Disallows #}\r\n{% if craft.app.config.env != 'production' %}\r\n\r\n{# Disallow access to everything when NOT in production #}\r\nUser-agent: *\r\nDisallow: /\r\n\r\n{% else %}\r\n\r\n{# Disallow access to cpresources/ when live #}\r\nUser-agent: *\r\nDisallow: /cpresources/\r\n\r\n{% endif %}"
+      sitemapLimit: '1000'
+      sitemapName: sitemap
+      socialImage:
+        - '326'
+      title:
+        -
+          __assoc__:
+            -
+              - key
+              - '1'
+            -
+              - locked
+              - '0'
+            -
+              - template
+              - '{title}'
+        -
+          __assoc__:
+            -
+              - key
+              - '2'
+            -
+              - locked
+              - '1'
+            -
+              - template
+              - ' | {{ siteName }} | Director, Filmmaker'
+      titleSuffix: null
+      twitterHandle: ''
+  super-table:
+    edition: standard
+    enabled: true
+    schemaVersion: 4.0.0
+  tablemaker:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.0.0
+  vite:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+system:
+  edition: solo
+  live: true
+  name: 'Joey De Guzman'
+  retryDuration: null
+  schemaVersion: 5.3.0.2
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  require2fa: false
+  requireEmailVerification: true

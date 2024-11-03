@@ -1,0 +1,35 @@
+{% set image = image ?? null %}
+{% set overlay =
+    {
+        show: true,
+        fixed: false,
+        blur: false
+    }|merge(overlay ?? {})
+%}
+
+{% set bg =
+    {
+        fixed: false
+    }|merge(bg ?? {})
+%}
+
+{% if image %}
+    <div role="presentation"
+        class="group absolute z-0 inset-0 {{
+        not overlay.blur
+            ? 'pointer-events-none '
+        }}">
+        <div class="js-background-image absolute z-0 inset-0 bg-cover bg-no-repeat bg-center md:bg-center {{
+            bg.fixed
+                ? 'bg-fixed'
+            }}"
+            data-src="{{ image.url }}"></div>
+
+        {% if overlay.show %}
+            <div class="absolute z-10 inset-0 bg-neutral-900/70  {{
+                overlay.blur
+                    ? 'backdrop-blur-sm group-hover:backdrop-blur-none group-hover:opacity-75 transition-all duration-700 ease-in-out'
+                }}"></div>
+        {% endif %}
+    </div>
+{% endif %}

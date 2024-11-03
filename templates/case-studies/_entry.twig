@@ -1,0 +1,91 @@
+{% extends '_layout' %}
+
+{% set showFooter = true %}
+
+{% set blocks =
+    entry.matrixBlocks.with(
+        [
+            'caseStudies:caseStudyEntries',
+            'caseStudies:caseStudyEntries.image',
+            'contact:backgroundImage',
+            'featuredCaseStudies:caseStudyEntries',
+            'featuredCaseStudies:caseStudyEntries.image',
+            'featuredCaseStudies:caseStudyEntries.caseStudyEntry',
+            'heroVideo:video',
+            'heroSplit:image',
+            'imageGrid:images',
+            'imageBanner:bannerItems.image',
+            'singleCaseStudy:caseStudyEntry',
+            'singleCaseStudy:caseStudyEntry.image',
+            'singleCaseStudy:caseStudyEntry.video',
+            'svgGrid:svgs'
+        ]
+    ).all()
+%}
+
+{% set relatedEntries =
+    craft.entries({
+        section: 'caseStudies',
+        relatedTo: entry.caseStudyCategory,
+        id: ['not', entry.id],
+        limit: 3
+    }).all()
+%}
+
+{% block content %}
+	<a href="/work" title="Back to Work page" class="button button--small button--hollow fixed top-[64px] right-[32px] z-20">
+		&laquo; Back
+	</a>
+	<div class="blocks-wrapper relative w-full z-10">
+		{% if (blocks|length) == 0 %}
+			{% set item = {
+                header: entry.title,
+                video: entry.video,
+                intro: null
+            } %}
+
+			{% cache using
+                key
+                craft.app.request.pathInfo ~ '-default-hero-video-id-'
+                    ~ entry.id
+            %}
+			{% include 'blocks/heroVideo' %}
+			{% endcache %}
+		{% endif %}
+
+		{% for item in blocks %}
+			{% cache using
+                key
+                craft.app.request.pathInfo ~ '-block-' ~ item.type.handle
+                    ~ '-id-'
+                    ~ item.id
+            %}
+			{% include 'blocks/' ~ item.type.handle with {
+                    first: loop.first,
+                    last: loop.last
+                } %}
+			{% endcache %}
+		{% endfor %}
+
+		{% if (relatedEntries|length) > 0 %}
+			<div class="block-wrapper bg-neutral-900">
+				<div class="block-container">
+					<h2 class="gs-lazy mb-4 md:mb-6 lg:mb-8">
+						Related Projects
+					</h2>
+					{% cache using
+                        key
+                        craft.app.request.pathInfo ~ '-related-case-study-'
+                            ~ item.type.handle
+                            ~ '-id-'
+                            ~ item.id
+                    %}
+					{% include 'components/case-study-grid' with {
+                            caseStudies: relatedEntries
+                        } %}
+					{% endcache %}
+				</div>
+			</div>
+		{% endif %}
+	</div>
+{% endblock %}

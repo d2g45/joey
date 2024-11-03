@@ -1,0 +1,30 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  - 7cfe71ad-e0d4-4b37-b875-cc0fee1ad54c # caseStudiesDefault
+handle: caseStudies
+maxAuthors: 1
+name: 'Case Studies'
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  cd9bb492-bcaa-4f09-bb24-13749990b4c7: # Joey De Guzman
+    enabledByDefault: true
+    hasUrls: true
+    template: case-studies/_entry.twig
+    uriFormat: 'work/{slug}'
+structure:
+  maxLevels: null
+  uid: caa87fcb-a2df-4886-aa8a-30cc8dfb9580
+type: structure

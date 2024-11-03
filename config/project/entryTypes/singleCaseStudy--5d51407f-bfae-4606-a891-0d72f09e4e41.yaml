@@ -1,0 +1,67 @@
+color: null
+fieldLayouts:
+  252527e8-6d74-49b1-85a2-893898ee4e04:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2024-11-03T17:15:03+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 82591fc3-29aa-4fbb-8ea4-225ac10d6445
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-11-03T17:16:27+00:00'
+            elementCondition: null
+            fieldUid: 9d9c757b-5105-4acd-895d-faa2181a81f9 # Case Study
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c2711cd9-2dbf-4009-97bf-f27527fd5db6
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: c78b4239-fd90-426f-ba6c-333143ce6c9a
+        userCondition: null
+handle: singleCaseStudy
+hasTitleField: false
+icon: acorn
+name: 'Single Case Study'
+showSlugField: false
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: ''
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

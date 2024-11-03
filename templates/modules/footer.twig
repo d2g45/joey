@@ -1,0 +1,21 @@
+{% cache globally %}
+{% set showFooter = showFooter ?? false %}
+{% if entry.showFooter or showFooter %}
+	<footer class="gs-group py-10 bg-neutral-800 block-wrapper block-wrapper--half-padding">
+		<div class="block-container text-center">
+			{% if footer.header %}
+				<h2 class="gs-lazy mb-12">
+					{{ footer.header }}
+				</h2>
+			{% endif %}
+
+			{% set footerPage = footer.pageEntry.one() %}
+			{% if footerPage %}
+				<a href="{{ footerPage.getUrl() }}" title="Go to the {{ footerPage.title }} page" class="gs-lazy button button--hollow text-md">
+					{{ footerPage.title }}
+				</a>
+			{% endif %}
+		</div>
+	</footer>
+{% endif %}
+{% endcache %}

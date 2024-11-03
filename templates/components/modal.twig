@@ -1,0 +1,22 @@
+{% set debug = debug ?? false %}
+{% set maxWidthClass = maxWidthClass ?? 'max-w-lg' %}
+{% set modalType = modalType ?? 'default' %}
+
+<div data-modal-type="{{ modalType }}" tabindex="-1" class="js-modal fixed z-50 inset-0 {{ debug ? '' : 'hidden' }}"
+    data-open-selector="{{ trigger }}">
+    {% block modal_background %}
+        <div class="js-modal-overlay absolute inset-0 backdrop-blur w-full h-full"></div>
+    {% endblock %}
+    {% block modal_interior %}
+        <div class="bg-neutral-900 absolute max-sm:inset-x-2 max-sm:bottom-2 max-sm:top-16 sm:top-1/2 sm:left-1/2 sm:-translate-x-1/2 sm:-translate-y-1/2 {% block modal_classes %} p-4 sm:w-full sm:max-w-lg{% endblock %}">
+            {% block modal_close %}
+                <button class="js-close absolute z-10 right-0 top-0 p-3 sm:-top-4 sm:-right-4 bg-neutral-500 w-10 leading-none">
+                    {{ inlineSvg('icons/times')}}
+                </button>
+            {% endblock %}
+            {% block modal_content %}
+
+            {% endblock %}
+        </div>
+    {% endblock %}
+</div>

@@ -1,0 +1,22 @@
+columnSuffix: null
+handle: caseStudyEntries
+instructions: null
+name: 'Case Studies'
+searchable: false
+settings:
+  allowSelfRelations: false
+  branchLimit: null
+  maintainHierarchy: false
+  maxRelations: null
+  minRelations: null
+  selectionLabel: null
+  showCardsInGrid: false
+  showSiteMenu: false
+  sources:
+    - 'section:30399411-205a-455e-9e96-f245e121f926' # Case Studies
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: list
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Entries

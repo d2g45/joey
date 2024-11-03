@@ -1,0 +1,83 @@
+color: null
+fieldLayouts:
+  b17a5f3a-e82f-471d-a1a9-404897c0cf11:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2024-11-03T17:20:07+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: c8ba8897-24b8-493f-ae2f-41697c07651a
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-11-03T18:46:35+00:00'
+            elementCondition: null
+            fieldUid: ee10b0d3-a081-4859-8cdd-f84ce01cd6ec # Header
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e9e6dfce-cca1-4be6-97d0-8637745e1539
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-11-03T17:22:18+00:00'
+            elementCondition: null
+            fieldUid: 82de6647-c6ee-44b2-808e-f5ab059837cd # SVGs
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 099b5582-8ee4-4133-b5c9-cd4e1df844c5
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: bae368af-55ba-4920-8d23-3eb96f07f7a4
+        userCondition: null
+handle: svgGrid
+hasTitleField: false
+icon: cactus
+name: 'SVG Grid'
+showSlugField: false
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: '{header}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

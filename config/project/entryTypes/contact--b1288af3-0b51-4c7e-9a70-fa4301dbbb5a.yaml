@@ -1,0 +1,99 @@
+color: null
+fieldLayouts:
+  08641656-8e52-482e-afab-8d1734edde37:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2024-11-03T07:39:15+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: d96023cc-28c1-40b5-9a58-d7b7813bd641
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-11-03T18:45:01+00:00'
+            elementCondition: null
+            fieldUid: ee10b0d3-a081-4859-8cdd-f84ce01cd6ec # Header
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 227c25b9-ca54-4d5a-812b-e10739372d2c
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-11-03T07:42:08+00:00'
+            elementCondition: null
+            fieldUid: ca8755a2-28e2-4d31-8a03-c90169c6cb3a # Body
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b0b4a51f-c85e-48a0-937e-2da336a24673
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-11-03T07:42:08+00:00'
+            elementCondition: null
+            fieldUid: dcfc1d5b-c355-48e0-ad71-068b65cc8c7f # Background Image
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d199e901-281f-4e2d-9e17-62294d861e31
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 07d8f2bf-2abe-4baf-b8cc-98cad80cfa47
+        userCondition: null
+handle: contact
+hasTitleField: false
+icon: paper-plane
+name: Contact
+showSlugField: false
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: '{header}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

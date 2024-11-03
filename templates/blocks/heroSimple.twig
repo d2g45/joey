@@ -1,0 +1,13 @@
+{% extends 'blocks/__base__' %}
+
+{% set classes = ['block-wrapper--half-padding', 'bg-neutral-800'] %}
+
+{% block block_content %}
+    <div class="w-full cms-content text-white">
+        {% if item.header %}
+            <h1 class="gs-lazy block mb-4 md:mb-6 lg:mb-8 text-center mt-14">
+                {{ item.header }}
+            </h1>
+        {% endif %}
+    </div>
+{% endblock %}
