@@ -42,7 +42,6 @@
     "dependencies": {
         "@tailwindcss/aspect-ratio": "^0.4.2",
         "gsap": "./node_packages/gsap-bonus.tgz",
-        "rollup-plugin-critical": "^1.0.12",
         "vite": "^4.1.2",
         "vite-plugin-compression": "^0.5.1"
     }
