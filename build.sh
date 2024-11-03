@@ -2,7 +2,7 @@
 
 git pull
 
-npm run install
+npm install
 
 php-8.2 composer install
 
