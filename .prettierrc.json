@@ -4,7 +4,7 @@
     "tabWidth": 4,
     "semi": true,
     "singleQuote": false,
-    "plugins": ["./node_modules/prettier-plugin-twig-melody"],
+    "plugins": ["@zackad/prettier-plugin-twig-melody"],
     "twigMultiTags": [
         "nav,endnav",
         "switch,case,default,endswitch",
