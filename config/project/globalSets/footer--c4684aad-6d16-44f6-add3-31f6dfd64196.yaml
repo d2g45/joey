@@ -9,10 +9,8 @@ fieldLayouts:
             elementCondition: null
             fieldUid: ee10b0d3-a081-4859-8cdd-f84ce01cd6ec # Header
             handle: null
-            includeInCards: false
             instructions: null
             label: null
-            providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -25,10 +23,8 @@ fieldLayouts:
             elementCondition: null
             fieldUid: a9d0491a-5979-40b7-8841-78fe402bde46 # Page
             handle: null
-            includeInCards: false
             instructions: null
             label: 'Button Link'
-            providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField

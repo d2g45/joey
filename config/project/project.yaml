@@ -1,4 +1,4 @@
-dateModified: 1730666788
+dateModified: 1773006052
 email:
   fromEmail: $CRAFT_SYSTEM_EMAIL
   fromName: 'Joey De Guzman'
@@ -30,7 +30,6 @@ meta:
     5d51407f-bfae-4606-a891-0d72f09e4e41: 'Single Case Study' # Single Case Study
     6ba22164-61a5-41c7-a5fe-456cb3288911: 'Case Studies' # Case Studies
     6d09286d-0d45-4e61-92f8-77bae9023475: 'Banner Items' # Banner Items
-    6f77af21-9fb5-46bf-a7c4-99358f005d84: Simple # Simple
     7cfe71ad-e0d4-4b37-b875-cc0fee1ad54c: caseStudiesDefault # caseStudiesDefault
     7db103d6-4558-4deb-8751-a5d994e0d722: 'Public Schema' # Public Schema
     8dcef4db-6fe4-4a9d-8ad0-282087884240: Contact # Contact
@@ -42,7 +41,6 @@ meta:
     82e2ff20-094d-4d48-b41e-be39fa158169: 'Case Study Categories' # Case Study Categories
     90c621c9-05f7-42db-a2ac-17e225a9d88c: 'Six Hundred' # Six Hundred
     468b0e80-4386-4d5a-ab7e-e3bdc6218b6b: SEO # SEO
-    524c2934-a646-4d47-a7e4-97c7f271b8d1: Default # Default
     556f66d7-eee8-4267-9ce2-3a4418d316f9: 'Show Footer' # Show Footer
     0841ce00-ca7d-4bdc-bd87-e259323a250a: Uploads # Uploads
     866ce817-c3a8-4121-b362-b14d7d27e1be: 'Contact Info' # Contact Info
@@ -86,7 +84,7 @@ plugins:
   ckeditor:
     edition: standard
     enabled: true
-    schemaVersion: 3.0.0.0
+    schemaVersion: 5.0.0.1
   contact-form:
     edition: standard
     enabled: true
@@ -178,7 +176,7 @@ system:
   live: true
   name: 'Joey De Guzman'
   retryDuration: null
-  schemaVersion: 5.3.0.2
+  schemaVersion: 5.9.0.8
   timeZone: America/Los_Angeles
 users:
   allowPublicRegistration: false

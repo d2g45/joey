@@ -6,15 +6,139 @@ searchable: true
 settings:
   availableTransforms: ''
   availableVolumes: '*'
-  ckeConfig: 524c2934-a646-4d47-a7e4-97c7f271b8d1 # Default
-  createButtonLabel: null
+  css: null
   defaultTransform: null
   enableSourceEditingForNonAdmins: false
+  fullGraphqlData: false
+  headingLevels:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+  js: null
+  options:
+    __assoc__:
+      -
+        - alignment
+        -
+          __assoc__:
+            -
+              - options
+              -
+                - left
+                - right
+      -
+        - code
+        -
+          __assoc__:
+            -
+              - indentSequence
+              - '  '
+      -
+        - htmlSupport
+        -
+          __assoc__:
+            -
+              - allow
+              -
+                -
+                  __assoc__:
+                    -
+                      - attributes
+                      - true
+                    -
+                      - classes
+                      - true
+                    -
+                      - styles
+                      - true
+      -
+        - style
+        -
+          __assoc__:
+            -
+              - definitions
+              -
+                -
+                  __assoc__:
+                    -
+                      - classes
+                      -
+                        - red-heading
+                    -
+                      - element
+                      - h2
+                    -
+                      - name
+                      - 'Red heading'
+                -
+                  __assoc__:
+                    -
+                      - classes
+                      -
+                        - vibrant-code
+                    -
+                      - element
+                      - pre
+                    -
+                      - name
+                      - 'Vibrant code'
+                -
+                  __assoc__:
+                    -
+                      - classes
+                      -
+                        - marker
+                    -
+                      - element
+                      - span
+                    -
+                      - name
+                      - Marker
   purifierConfig: null
   purifyHtml: true
   showUnpermittedFiles: false
   showUnpermittedVolumes: false
   showWordCount: true
+  toolbar:
+    - undo
+    - redo
+    - sourceEditing
+    - '|'
+    - style
+    - heading
+    - '|'
+    - alignment
+    - '|'
+    - blockQuote
+    - code
+    - codeBlock
+    - '|'
+    - bold
+    - italic
+    - underline
+    - strikethrough
+    - subscript
+    - superscript
+    - '|'
+    - bulletedList
+    - numberedList
+    - outdent
+    - indent
+    - horizontalLine
+    - '|'
+    - link
+    - bookmark
+    - '|'
+    - insertImage
+    - mediaEmbed
+    - insertTable
+    - htmlEmbed
+    - removeFormat
+    - selectAll
+    - createEntry
   wordLimit: null
 translationKeyFormat: null
 translationMethod: none

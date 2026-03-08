@@ -14,7 +14,6 @@ fieldLayouts:
             disabled: false
             elementCondition: null
             id: null
-            includeInCards: false
             inputType: null
             instructions: null
             label: null
@@ -23,7 +22,6 @@ fieldLayouts:
             name: null
             orientation: null
             placeholder: null
-            providesThumbs: false
             readonly: false
             requirable: false
             size: null
@@ -40,10 +38,8 @@ fieldLayouts:
             elementCondition: null
             fieldUid: 24edeead-6392-4988-887c-3e990f6f8eef # Email
             handle: null
-            includeInCards: false
             instructions: null
             label: null
-            providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -56,10 +52,8 @@ fieldLayouts:
             elementCondition: null
             fieldUid: 4147d92a-c562-436f-9d8e-ac8985be820e # Instagram
             handle: null
-            includeInCards: false
             instructions: null
             label: null
-            providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -72,10 +66,8 @@ fieldLayouts:
             elementCondition: null
             fieldUid: b19b772f-8857-4d40-a123-fc30bf2cabbd # Vimeo
             handle: null
-            includeInCards: false
             instructions: null
             label: null
-            providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -88,10 +80,8 @@ fieldLayouts:
             elementCondition: null
             fieldUid: c5fc4097-7b04-4fdc-96ad-9eca510fdfc0 # Youtube
             handle: null
-            includeInCards: false
             instructions: null
             label: null
-            providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField

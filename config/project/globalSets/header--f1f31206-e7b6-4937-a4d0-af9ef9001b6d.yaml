@@ -9,10 +9,8 @@ fieldLayouts:
             elementCondition: null
             fieldUid: 2e7a92a1-1299-431d-9061-f2de28e10d5d # Navigation
             handle: null
-            includeInCards: false
             instructions: null
             label: null
-            providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField

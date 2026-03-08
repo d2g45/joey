@@ -14,7 +14,6 @@ fieldLayouts:
             disabled: false
             elementCondition: null
             id: null
-            includeInCards: false
             inputType: null
             instructions: null
             label: null
@@ -23,7 +22,6 @@ fieldLayouts:
             name: null
             orientation: null
             placeholder: null
-            providesThumbs: false
             readonly: false
             requirable: false
             size: null
@@ -40,10 +38,8 @@ fieldLayouts:
             elementCondition: null
             fieldUid: 5d04f5b0-4271-45e5-bbb2-a410d01cae6e # Case Study Category
             handle: null
-            includeInCards: false
             instructions: null
             label: Category
-            providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -56,10 +52,8 @@ fieldLayouts:
             elementCondition: null
             fieldUid: 52e92402-78f6-4f5a-96ff-af4f76fb213d # Matrix Blocks
             handle: null
-            includeInCards: false
             instructions: null
             label: null
-            providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -78,10 +72,8 @@ fieldLayouts:
             elementCondition: null
             fieldUid: aa10a5f2-b7f8-4b5c-a2f3-b1719e3924bd # Image
             handle: null
-            includeInCards: false
             instructions: null
             label: null
-            providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -94,10 +86,8 @@ fieldLayouts:
             elementCondition: null
             fieldUid: 09930591-33c2-442f-ab5f-b870f81381a3 # Video
             handle: null
-            includeInCards: false
             instructions: null
             label: null
-            providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -116,10 +106,8 @@ fieldLayouts:
             elementCondition: null
             fieldUid: 468b0e80-4386-4d5a-ab7e-e3bdc6218b6b # SEO
             handle: null
-            includeInCards: false
             instructions: null
             label: null
-            providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField

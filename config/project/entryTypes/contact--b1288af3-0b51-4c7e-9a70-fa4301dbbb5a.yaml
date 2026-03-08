@@ -14,7 +14,6 @@ fieldLayouts:
             disabled: false
             elementCondition: null
             id: null
-            includeInCards: false
             inputType: null
             instructions: null
             label: null
@@ -23,7 +22,6 @@ fieldLayouts:
             name: null
             orientation: null
             placeholder: null
-            providesThumbs: false
             readonly: false
             requirable: false
             size: null
@@ -40,10 +38,8 @@ fieldLayouts:
             elementCondition: null
             fieldUid: ee10b0d3-a081-4859-8cdd-f84ce01cd6ec # Header
             handle: null
-            includeInCards: false
             instructions: null
             label: null
-            providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -56,10 +52,8 @@ fieldLayouts:
             elementCondition: null
             fieldUid: ca8755a2-28e2-4d31-8a03-c90169c6cb3a # Body
             handle: null
-            includeInCards: false
             instructions: null
             label: null
-            providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -72,10 +66,8 @@ fieldLayouts:
             elementCondition: null
             fieldUid: dcfc1d5b-c355-48e0-ad71-068b65cc8c7f # Background Image
             handle: null
-            includeInCards: false
             instructions: null
             label: null
-            providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
