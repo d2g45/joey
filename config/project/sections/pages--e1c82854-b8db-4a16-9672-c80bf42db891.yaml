@@ -1,22 +1,17 @@
 defaultPlacement: end
 enableVersioning: true
 entryTypes:
-  - bb70feec-7ba0-4f5d-b482-214273eb35f6 # Pages Default
+  -
+    uid: bb70feec-7ba0-4f5d-b482-214273eb35f6 # Pages Default
 handle: pages
 maxAuthors: 1
+minAuthors: 1
 name: Pages
 previewTargets:
   -
-    __assoc__:
-      -
-        - label
-        - 'Primary entry page'
-      -
-        - urlFormat
-        - '{url}'
-      -
-        - refresh
-        - '1'
+    label: 'Primary entry page'
+    refresh: '1'
+    urlFormat: '{url}'
 propagationMethod: all
 siteSettings:
   cd9bb492-bcaa-4f09-bb24-13749990b4c7: # Joey De Guzman
